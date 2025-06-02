@@ -1,0 +1,12 @@
+Katrine fik karakteren 7
+Stine udeblev fra timen
+Joakim fremlagde for klassen
+Joakim kom for sent
+Anders fik en ny gruppe
+Anders afleverede for sent
+Her er en linje uden et navn
+Her er Anders placeret midt i en sætning
+Anders med efternavnet Andersen, Anders har gæld
+Anders, Anders har meget tøj
+Denne linje har to sætninger. Anders indgår i den anden
+     Anders mellemrum i starten håndteres ikke
