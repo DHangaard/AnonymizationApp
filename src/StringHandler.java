@@ -16,11 +16,11 @@ public class StringHandler {
             // Iterate through studentNames
             for (String name : studentNames) {
 
-                // Check if name is first word
+                // Check if name appears as word
                 Pattern pattern = Pattern.compile("(^\\s*|[.:]\\s*)(" + name + "\\b)");
                 Matcher matcher = pattern.matcher(line);
 
-                // Replace (if) first instance of name if it is the first word on the line
+                // Replace if instance of name as forst word
                 if (matcher.find()){
                     line = matcher.replaceFirst(matcher.group(1) + anonAsFirst);
                 }
