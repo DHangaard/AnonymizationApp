@@ -6,11 +6,7 @@ import java.util.Scanner;
 
 public class FileIO {
 
-    // Attributes
-
-    // Constructor
-
-    // Methods
+    // ---------- Methods ----------
     public static ArrayList<String> readFile(String path) {
 
         ArrayList<String> text = new ArrayList<>();

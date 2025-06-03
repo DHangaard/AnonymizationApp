@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Main {
 
@@ -20,7 +19,9 @@ public class Main {
             System.out.println(s);
         }
 
+
         System.out.println(); // Empty line
+
 
         // Display anonymized text
         for (String s : anonymizedText){

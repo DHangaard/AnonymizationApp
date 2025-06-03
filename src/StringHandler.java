@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 
 public class StringHandler {
 
-    // Methods
+    // ---------- Methods ----------
     public ArrayList<String> replaceText(ArrayList<String> originalText, ArrayList<String> studentNames) {
         ArrayList<String> anonymizedText = new ArrayList<>();
         String anonAsFirst = "Den studerende";
@@ -20,7 +20,7 @@ public class StringHandler {
                 Pattern pattern = Pattern.compile("(^\\s*|[.:]\\s*)(" + name + "\\b)");
                 Matcher matcher = pattern.matcher(line);
 
-                // Replace if instance of name is first word on the line
+                // Replace (if) first instance of name if it is the first word on the line
                 if (matcher.find()){
                     line = matcher.replaceFirst(matcher.group(1) + anonAsFirst);
                 }
